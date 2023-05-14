@@ -20,10 +20,10 @@ namespace dz_10._05
         {
             InitializeComponent();
             students = new List<Student>();
-            students.Add(new Student("Ivan", 20, "ItStep"));
-            students.Add(new Student("Oleg", 18, "Politeh"));
-            students.Add(new Student("Kirill", 19, "ItStep"));
-            students.Add(new Student("Sonya", 18, "Mechnikova"));
+            students.Add(new Student("Dima", 20, "Kuznetsovo"));
+            students.Add(new Student("andrg", 21, "Politeh"));
+            students.Add(new Student("Valera", 19, "ItStep"));
+            students.Add(new Student("Ron", 18, "Kurs"));
 
             listView1.Columns.Add("Имя");
             listView1.Columns.Add("Возраст");
